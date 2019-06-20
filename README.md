@@ -9,19 +9,27 @@
 
 * [Travis](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-018)
 
-* [UML]()
+* [UML]
+
+<img src="./assets/lab18_process_flow.jpg" width =400px>
 
 ### Documentation
 
-Dependencies
+### Dependencies
 jest
+
 lint
+
 socket.io
 
-Modules
+### Modules
 
+server.js
 
-Exported Values and Methods
+app.js
+
+logger
+
 
 
 ### Setup

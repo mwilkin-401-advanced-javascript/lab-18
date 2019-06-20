@@ -23,3 +23,21 @@ describe('log function', () => {
     //test logger 
   });
 });
+
+describe('readFile function', () => {
+  it('it should read a file', () => {
+     
+  });
+  it('it should throw and error with a bad file', () => {
+     
+  });
+});
+
+describe('writeFile function', () => {
+  it('it should write a file', () => {
+    
+  });
+  it('it should throw and error if given a bad file', () => {
+    
+  });
+});
