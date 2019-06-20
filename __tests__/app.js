@@ -1,14 +1,14 @@
 'use strict';
 
-// const app = require('../app.js');
+const app = require('../app.js');
 
 jest.mock('fs');
 
 describe('convertCase function', () => {
-  it('should return a string uppercased', () => {
-    // let string = 'test string';
-    // let convertedString = app.convertCase(string);
-    // expect(convertedString).toEqual('TEST STRING');
+  it('should turn a buffer into an uppercased string ', () => {
+    let string = Buffer.from('test string');
+    let convertedString = app.convertCase(string);
+    expect(convertedString).toEqual('TEST STRING');
   });
 });
 
@@ -26,7 +26,8 @@ describe('log function', () => {
 
 describe('readFile function', () => {
   it('it should read a file', () => {
-     
+    
+
   });
   it('it should throw and error with a bad file', () => {
      
