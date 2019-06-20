@@ -40,7 +40,6 @@ function readFile(file) {
 
 function writeFile(file, text) {
   return new Promise((resolve, reject) => {
-
     fs.writeFile(file, Buffer.from(text), (error, data) => {
       if(error){
         reject(error);
@@ -78,5 +77,13 @@ const alterFile = (file) => {
 
 let file = process.argv.slice(2).shift();
 alterFile(file);
+
+/**
+* events export
+* @type {Object} - convertCase
+* @type {Object} - readFile
+* @type {Object} - writeFile
+* 
+ */
 
 module.exports = {convertCase, readFile, writeFile};
