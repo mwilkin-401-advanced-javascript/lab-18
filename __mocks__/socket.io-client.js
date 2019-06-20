@@ -1,6 +1,6 @@
 'use strict';
 
-cont io = {};
+const io = {};
 
 io.listen = port => {
   console.log('listener on', port);
