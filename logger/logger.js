@@ -8,7 +8,6 @@ const socket = io.connect('http://localhost:3000');
  * @module logger
  */
 
-
 /**
  * @fucntion saveLog - fires a message upon receipt of emit event from server 
  * @desc consoles a message upon save

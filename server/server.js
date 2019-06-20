@@ -1,12 +1,11 @@
 'use strict';
 
-const io = require('socket.io')(3001);
+const io = require('socket.io')(3000);
 
 /**
  * server module
  * @module server
  */
-
 
 io.on('connection', socket => {
   console.log(`server.js connected to socket: ${socket.id}`);
